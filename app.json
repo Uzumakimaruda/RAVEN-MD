@@ -56,15 +56,15 @@
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
-      "required": true
+      "required": false
 },
  "AUTOVIEW": {
       "description": "Input true if you want bot to automatically read status update",
-      "required": false
+      "required": true
 },
  "WA_PRESENCE": {
       "description": "Input either recording or typing. This enables bot to simulate typing or recording.",
-      "required": false
+      "required": "recording"
 },
  "ANTILINK": {
       "description": "Input TRUE if you want bot to kick link senders",
@@ -72,7 +72,7 @@
 },
  "ANTILINK_ALL": {
       "description": "Input TRUE if you want bot to kick users sending any links.",
-      "required": false
+      "required": true
 },
  "ANTIBOT": {
       "description": "Input TRUE if you want bot to kick other bots from group",
@@ -80,7 +80,7 @@
 },
  "WELCOME": {
       "description": "Input TRUE if you want bot to send welcome message to new members.",
-      "required": false
+      "required": true
 },
  "ANTIFOREIGN": {
       "description": "Input TRUE if you want bot to kick non-kenyan numbers joining.",
@@ -96,7 +96,7 @@
 },
  "STICKER_AUTHOR": {
       "description": "Input sticker data for author",
-      "required": false
+      "required": true
 },
  "STICKER_PACKNAME": {
       "description": "Input sticker data for packname",
